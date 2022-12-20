@@ -19,8 +19,14 @@ Kirby::plugin('soerenengels/blocks-mjml', [
         'mj-raw' => MJMLBlock::class, */
     ],
     'blueprints' => [
-        // Responsive E-Mail Template
+        // Responsive E-Mail Blueprint, Section and partials
         'pages/mjml' => __DIR__ . '/blueprints/mjml.yml',
+        'sections/mjml/email' => __DIR__ . '/blueprints/sections/mjml/email.yml',
+        'fields/mjml/preview' => __DIR__ . '/blueprints/fields/mjml/preview.yml',
+        'layout/mjml/content' => __DIR__ . '/blueprints/layout/mjml/content.yml',
+        'layout/mjml/fieldsets' => __DIR__ . '/blueprints/layout/mjml/fieldsets.yml',
+        'layout/mjml/layouts' => __DIR__ . '/blueprints/layout/mjml/layouts.yml',
+        'layout/mjml/settings' => __DIR__ . '/blueprints/layout/mjml/settings.yml',
         // Available MJML Blocks
         'blocks/mj-text' => __DIR__ . '/blueprints/blocks/mjml/mj-text.yml',
         'blocks/mj-heading' => __DIR__ . '/blueprints/blocks/mjml/mj-heading.yml',

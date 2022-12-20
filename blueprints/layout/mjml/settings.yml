@@ -1,0 +1,9 @@
+settings:
+  fields:
+    background: fields/mjml/settings/background
+    border: fields/mjml/settings/border
+    css_class: fields/mjml/settings/css-class
+    direction: fields/mjml/settings/direction
+    full_width: fields/mjml/settings/full-width
+    padding: fields/mjml/settings/padding
+    text_align: fields/mjml/settings/align

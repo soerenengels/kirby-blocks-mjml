@@ -41,8 +41,8 @@ fields:
     type: text
     icon: url
   ##   name
-  height: fields/mjml_height
-  width: fields/mjml_width
+  height: fields/mjml/settings/height
+  width: fields/mjml/settings/width
   ratio:
     label: field.blocks.image.ratio
     type: select
@@ -62,11 +62,11 @@ fields:
     label: field.blocks.image.crop
     type: toggle
     width: 1/2
-  align: fields/mjml_align
-  border: fields/mjml_border
-  background_color: fields/mjml_container-background-color
-  css_class: fields/mjml_css-class
-  padding: fields/mjml_padding
+  align: fields/mjml/settings/align
+  border: fields/mjml/settings/border
+  background_color: fields/mjml/settings/container-background-color
+  css_class: fields/mjml/settings/css-class
+  padding: fields/mjml/settings/padding
   ## fluid on mobile
   ## rel
   ## sizes

@@ -3,7 +3,7 @@ use Kirby\Cms\Block;
 
 /**
  * Extends the Kirby\Cms\Block class
- * to convert content to mjml element
+ * to create mjml content representation
  */
 class MJMLBlock extends Block
 {

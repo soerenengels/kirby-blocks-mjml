@@ -7,23 +7,23 @@ fields:
     type: writer
     nodes: false
     placeholder: field.blocks.text.placeholder
-  color: fields/mjml_color
-  font_family: fields/mjml_font-family
-  font_size: fields/mjml_font-size
-  font_style: fields/mjml_font-style
-  font_weight: fields/mjml_font-weight
-  line_height: fields/mjml_line-height
-  letter_spacing: fields/mjml_letter-spacing
-  height: fields/mjml_height
-  text_decoration: fields/mjml_text-decoration
-  text_transform: fields/mjml_text-transform
+  color: fields/mjml/settings/color
+  font_family: fields/mjml/settings/font-family
+  font_size: fields/mjml/settings/font-size
+  font_style: fields/mjml/settings/font-style
+  font_weight: fields/mjml/settings/font-weight
+  line_height: fields/mjml/settings/line-height
+  letter_spacing: fields/mjml/settings/letter-spacing
+  height: fields/mjml/settings/height
+  text_decoration: fields/mjml/settings/text-decoration
+  text_transform: fields/mjml/settings/text-transform
   align:
-    extends: fields/mjml_align
+    extends: fields/mjml/settings/align
     default: left
     options:
       justify: justify
-  background_color: fields/mjml_container-background-color
+  background_color: fields/mjml/settings/container-background-color
   padding:
-    extends: fields/mjml_padding
+    extends: fields/mjml/settings/padding
     default: "10px 25px"
-  css_class: fields/mjml_css-class
+  css_class: fields/mjml/settings/css-class

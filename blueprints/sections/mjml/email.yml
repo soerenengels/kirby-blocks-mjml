@@ -1,0 +1,4 @@
+type: fields
+fields:
+  mjml_preview: fields/mjml/preview
+  mjml_email: layout/mjml/content

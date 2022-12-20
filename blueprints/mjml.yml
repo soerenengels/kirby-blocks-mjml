@@ -1,43 +1,15 @@
 title: Responsive Mail
+options:
+  changeTemplate: false
 
 columns:
   main:
     width: 2/3
     sections:
-      fields:
-        type: fields
-        fields:
-          preview:
-            label: Preview line
-            type: text
-            help: Will be displayed in the inbox of the recipient
-          text:
-            type: layout
-            layouts:
-              - "1/1"
-              - "1/2, 1/2"
-              - "1/3, 1/3, 1/3"
-              - "1/4, 1/4, 1/4, 1/4"
-            fieldsets:
-              - mj-text
-              - mj-heading
-              - mj-divider
-              - mj-image
-            settings:
-              fields:
-                background: fields/mjml_background
-                border: fields/mjml_border
-                css_class: fields/mjml_css-class
-                direction: fields/mjml_direction
-                full_width: fields/mjml_full-width
-                padding: fields/mjml_padding
-                text_align: fields/mjml_align
+      mjml_email:
+        extends: sections/mjml/email
   aside:
     width: 1/3
     sections:
-      email_preview:
-        type: mjml_preview
-
-
-
-
+      mjml_preview:
+        extends: mjml_preview

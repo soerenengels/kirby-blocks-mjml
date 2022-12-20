@@ -12,10 +12,10 @@ return [
             return Str::short($this->model()->title(), 140);
         },
         'preview' => function (): string {
-            return Str::short($this->model()->preview(), 140);
+            return Str::short($this->model()->mjml_preview(), 140);
         },
         'abstract' => function (): string {
-            return Str::short($this->model()->text()->toBlocks()->excerpt(), 140);
+            return Str::short($this->model()->mjml_email()->toBlocks()->excerpt(), 140);
         },
         'url' => function (): string {
             return $this->model()->url();

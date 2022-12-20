@@ -1,0 +1,7 @@
+label: Email content
+type: layout
+
+extends:
+  - layout/mjml/fieldsets
+  - layout/mjml/layouts
+  - layout/mjml/settings

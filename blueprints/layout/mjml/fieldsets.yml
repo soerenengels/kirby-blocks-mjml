@@ -1,0 +1,5 @@
+fieldsets:
+  - mj-text
+  - mj-heading
+  - mj-divider
+  - mj-image

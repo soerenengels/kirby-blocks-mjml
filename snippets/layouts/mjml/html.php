@@ -52,7 +52,7 @@
 <body class="mjml">
     <header class="email_head">
         <p><strong>Subject:</strong> <?= $page->title() ?></p>
-        <p><strong>Preview:</strong> <?= $page->preview() ?></p>
+        <p><strong>Preview:</strong> <?= $page->mjml_preview() ?></p>
     </header>
     <main class="email_body">
         <?= $slot ?>

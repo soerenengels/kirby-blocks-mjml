@@ -1,1 +1,60 @@
-.k-block-type-text-input{font-size:var(--text-base);line-height:1.5em;height:100%}.k-block-type-text,.k-block-container-type-text,.k-block-type-text .k-writer .ProseMirror{height:100%}.k-block-type-heading-input{line-height:1.25em;font-weight:var(--font-bold)}.k-block-type-heading-input[data-level=h1]{font-size:var(--text-3xl);line-height:1.125em}.k-block-type-heading-input[data-level=h2]{font-size:var(--text-2xl)}.k-block-type-heading-input[data-level=h3]{font-size:var(--text-xl)}.k-block-type-heading-input[data-level=h4]{font-size:var(--text-lg)}.k-block-type-heading-input[data-level=h5]{line-height:1.5em;font-size:var(--text-base)}.k-block-type-heading-input[data-level=h6]{line-height:1.5em;font-size:var(--text-sm)}.k-block-type-heading-input .ProseMirror strong{font-weight:700}.k-block-type-mjml-divider hr{display:inline-block}.k-block-type-image .k-block-figure-container{display:block;text-align:center;line-height:0}.k-block-type-image-auto{max-width:100%;max-height:30rem}
+
+.k-link {
+  text-decoration: none !important;
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+}
+
+.k-block-type-text-input {
+	font-size: var(--text-base);
+	line-height: 1.5em;
+	height: 100%;
+}
+.k-block-type-text,
+.k-block-container-type-text,
+.k-block-type-text .k-writer .ProseMirror {
+	height: 100%;
+}
+
+.k-block-type-heading-input {
+	line-height: 1.25em;
+	font-weight: var(--font-bold);
+}
+.k-block-type-heading-input[data-level="h1"] {
+	font-size: var(--text-3xl);
+	line-height: 1.125em;
+}
+.k-block-type-heading-input[data-level="h2"] {
+	font-size: var(--text-2xl);
+}
+.k-block-type-heading-input[data-level="h3"] {
+	font-size: var(--text-xl);
+}
+.k-block-type-heading-input[data-level="h4"] {
+	font-size: var(--text-lg);
+}
+.k-block-type-heading-input[data-level="h5"] {
+	line-height: 1.5em;
+	font-size: var(--text-base);
+}
+.k-block-type-heading-input[data-level="h6"] {
+	line-height: 1.5em;
+	font-size: var(--text-sm);
+}
+.k-block-type-heading-input .ProseMirror strong {
+	font-weight: 700;
+}
+
+.k-block-type-mjml-divider hr {
+	display: inline-block;
+}
+
+.k-block-type-image .k-block-figure-container {
+	display: block;
+	text-align: center;
+	line-height: 0;
+}
+.k-block-type-image-auto {
+	max-width: 100%;
+	max-height: 30rem;
+}

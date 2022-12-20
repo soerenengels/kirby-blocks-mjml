@@ -4,7 +4,7 @@
 
     <?php snippet('mjml/mj-head', [
         'title' => $title ?? $page->title(),
-        'preview' => $preview ?? $page->preview()
+        'preview' => $preview ?? $page->mjml_preview()
     ]) ?>
 
     <!-- https://documentation.mjml.io/#mj-body -->
