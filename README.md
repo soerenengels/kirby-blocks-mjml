@@ -164,6 +164,8 @@ As alternative you could also use the MJML API.
 
 I have some **open questions** development wise and would be glad about feedback and help:
 
+- What are ways to improve performance?
+- Can I use template language with this plugin?
 - Are there ideas to better connect the MJML blocks to Core Kirby blocks? [maybe...?](https://getkirby.com/docs/reference/plugins/extensions/blocks) [or this](https://getkirby.com/docs/cookbook/panel/block-basics)
 - How can I make the code more error prove?
 - Where are validations necessary?
