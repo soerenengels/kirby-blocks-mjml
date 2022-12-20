@@ -1,0 +1,22 @@
+{
+    "name": "soerenengels/kirby-blocks-mjml",
+    "description": "Let Kirby-Blocks output mjml and convert to html mail",
+    "homepage:": "https://github.com/soerenengels/kirby-blocks-mjml",
+    "type": "kirby-plugin",
+    "authors": [
+        {
+            "name": "Sören",
+            "email": "34400296+soerenengels@users.noreply.github.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    },
+    "version": "0.0.1",
+    "support": {
+        "docs": "https://github.com/soerenengels/kirby-blocks-mjml",
+        "source": "https://github.com/soerenengels/kirby-blocks-mjml"
+    }
+}

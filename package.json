@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mjml": "^4.13.0"
+  },
+  "scripts": {
+    "dev": "npx -y kirbyup@latest src/index.js --watch",
+    "serve": "npx -y kirbyup@latest serve src/index.js",
+    "build": "npx -y kirbyup@latest src/index.js"
+  }
+}

@@ -1,0 +1,7 @@
+type: select
+label: Text decoration
+options:
+  - underline
+  - overline
+  - line-through
+  - none

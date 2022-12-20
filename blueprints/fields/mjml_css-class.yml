@@ -1,0 +1,3 @@
+type: text
+label: CSS Class Name
+help: "added to the root HTML element created"

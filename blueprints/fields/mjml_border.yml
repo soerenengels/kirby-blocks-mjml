@@ -1,0 +1,35 @@
+type: group
+fields:
+  border:
+    type: text
+    label: Border shorthand
+  border_toggle:
+    label: Show complex border
+    type: toggle
+  border_top:
+    type: text
+    width: 1/4
+    when:
+      border_toggle: true
+    label: Border top
+  border_right:
+    type: text
+    width: 1/4
+    when:
+      border_toggle: true
+    label: Border right
+  border_bottom:
+    when:
+      border_toggle: true
+    type: text
+    width: 1/4
+    label: Border bottom
+  border_left:
+    when:
+      border_toggle: true
+    type: text
+    width: 1/4
+    label: Border left
+  border_radius:
+    type: text
+    label: Border radius

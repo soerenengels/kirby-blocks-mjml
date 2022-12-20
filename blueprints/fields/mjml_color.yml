@@ -1,0 +1,4 @@
+type: text
+label: Color
+default: "#000000"
+help: "css color value, e.g. #00ff00"

@@ -1,0 +1,38 @@
+type: group
+fields:
+  background_color_2:
+    type: text
+    label: Background color
+  background_size:
+    type: text
+    label: Background size
+    default: auto
+    help: "px/percent/cover/contain"
+  background_url:
+    type: url
+    label: Background URL
+  background_repeat:
+    when:
+      background_url: true
+    type: text
+    label: Background repeat
+    default: repeat
+  background_position:
+    when:
+      background_url: true
+    type: text
+    label: Background position
+    help: "percent / left,top,... (2 values max)"
+    default: "top center"
+  background_position_x:
+    when:
+      background_url: true
+    type: text
+    help: "percent / keyword"
+    default: none
+  background_position_y:
+    when:
+      background_url: true
+    type: text
+    help: "percent / keyword"
+    default: none

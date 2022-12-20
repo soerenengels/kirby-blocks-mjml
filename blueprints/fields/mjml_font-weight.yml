@@ -1,0 +1,4 @@
+type: text
+label: Font Weight
+default: 400
+help: "number"

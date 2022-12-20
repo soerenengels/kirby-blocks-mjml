@@ -1,0 +1,7 @@
+label: Alignment
+type: select
+default: center
+options:
+  left: left
+  center: center
+  right: right

@@ -1,0 +1,11 @@
+name:  MJML Divider
+icon: divider
+wysiwyg: true
+
+fields:
+  width: fields/mjml_width
+  align: fields/mjml_align
+  padding: fields/mjml_padding
+  color: fields/mjml_color
+  border_style: fields/mjml_border-style
+  border_width: fields/mjml_border-width

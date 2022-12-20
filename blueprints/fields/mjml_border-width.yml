@@ -1,0 +1,4 @@
+label: Border-Width
+type: text
+default: 4px
+help: e.g. 4px

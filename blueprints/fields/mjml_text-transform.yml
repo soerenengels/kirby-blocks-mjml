@@ -1,0 +1,6 @@
+type: select
+label: Text transform
+options:
+  - uppercase
+  - lowercase
+  - capitalize

@@ -1,0 +1,29 @@
+name: MJML-Text
+icon: text
+wysiwyg: true
+
+fields:
+  text:
+    type: writer
+    nodes: false
+    placeholder: field.blocks.text.placeholder
+  color: fields/mjml_color
+  font_family: fields/mjml_font-family
+  font_size: fields/mjml_font-size
+  font_style: fields/mjml_font-style
+  font_weight: fields/mjml_font-weight
+  line_height: fields/mjml_line-height
+  letter_spacing: fields/mjml_letter-spacing
+  height: fields/mjml_height
+  text_decoration: fields/mjml_text-decoration
+  text_transform: fields/mjml_text-transform
+  align:
+    extends: fields/mjml_align
+    default: left
+    options:
+      justify: justify
+  background_color: fields/mjml_container-background-color
+  padding:
+    extends: fields/mjml_padding
+    default: "10px 25px"
+  css_class: fields/mjml_css-class

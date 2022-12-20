@@ -1,0 +1,7 @@
+label: Border-Style
+type: select
+default: solid
+options:
+  - dashed
+  - dotted
+  - solid
