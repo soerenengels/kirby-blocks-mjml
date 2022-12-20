@@ -16,7 +16,6 @@ class MJMLBlock extends Block
 	{
 		try {
 			$kirby = $this->parent()->kirby();
-            //return 'empty string';
 			return (string)$kirby->snippet('blocks/' . $this->type() . '.mjml', $this->controller(), true);
 		} catch (Throwable $e) {
 			if ($kirby->option('debug') === true) {

@@ -4,6 +4,7 @@ use Kirby\Cms\App as Kirby;
 
 require __DIR__ . '/vendor/autoload.php';
 
+/* maybe use https://getkirby.com/docs/guide/plugins/plugin-setup-autoloader */
 load([
     'Soerenengels\Newsletter\MJML' => __DIR__ . '/classes/MJML.php',
     'MJMLBlock' => __DIR__ . '/models/blocks/MJMLBlock.php',
